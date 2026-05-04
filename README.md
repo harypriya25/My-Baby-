@@ -173,3 +173,4 @@ foodlogic/
 ---
 
 Built with the mission of helping students from rural backgrounds discover careers in food science and engineering.
+
