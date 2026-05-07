@@ -1,0 +1,5 @@
+{
+  "installCommand": "node -e \"const fs=require('fs');let f=fs.readFileSync('package.json');if(f[0]===0xEF&&f[1]===0xBB&&f[2]===0xBF){fs.writeFileSync('package.json',f.slice(3));console.log('BOM removed');}else{console.log('No BOM found');}\" && npm install --legacy-peer-deps",
+  "buildCommand": "next build",
+  "framework": "nextjs"
+}
